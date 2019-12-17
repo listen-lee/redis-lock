@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 172.16.0.241
+    database: 0
+
+app:
+  consumer:
+    redis-key: consumer
+    lock-key: consumer-lock
+    task-enabled: fals
+server:
+  servlet:
+    context-path: /api
